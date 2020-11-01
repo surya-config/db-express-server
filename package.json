@@ -11,7 +11,9 @@
   "engines": {
     "node": "8.9.3"
   },
-  "keywords": [],
+  "keywords": [
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
