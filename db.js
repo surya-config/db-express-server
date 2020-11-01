@@ -1,4 +1,4 @@
-export const db = [
+const db = [
   {
     dishes: [
       {
@@ -281,3 +281,5 @@ export const db = [
     ],
   },
 ];
+
+export default db;
