@@ -3,7 +3,7 @@ import db from "./db.js";
 
 const app = express();
 app.use(express.json());
-const port = 3002;
+const port = process.env.port || 3000;
 
 app.get("/", (req, res) => {
   res.send("Hello world");
