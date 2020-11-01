@@ -3,7 +3,6 @@ const db = require("./db.js");
 
 const app = express();
 app.use(express.json());
-const port = process.env.port || 3000;
 
 app.get("/", (req, res) => {
   res.send("Hello world");
@@ -33,6 +32,10 @@ app.get("/leaders", (req, res) => {
   res.send(data);
 });
 
-app.listen(port, () => {
-  console.log("listening to port ", port);
+app.listen(process.env.PORT || 3000, function () {
+  console.log(
+    "Express server listening on port %d in %s mode",
+    this.address().port,
+    app.settings.env
+  );
 });
