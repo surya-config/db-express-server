@@ -4,7 +4,7 @@ const db = [
       {
         id: 0,
         name: "Uthappizza",
-        image: "images/uthappizza.png",
+        image: "./images/uthappizza.png",
         category: "mains",
         label: "Hot",
         price: "4.99",
@@ -15,7 +15,7 @@ const db = [
       {
         id: 1,
         name: "Zucchipakoda",
-        image: "images/zucchipakoda.png",
+        image: "./images/zucchipakoda.png",
         category: "appetizer",
         label: "",
         price: "1.99",
@@ -26,7 +26,7 @@ const db = [
       {
         id: 2,
         name: "Vadonut",
-        image: "images/vadonut.png",
+        image: "./images/vadonut.png",
         category: "appetizer",
         label: "New",
         price: "1.99",
@@ -37,7 +37,7 @@ const db = [
       {
         id: 3,
         name: "ElaiCheese Cake",
-        image: "images/elaicheesecake.png",
+        image: "./images/elaicheesecake.png",
         category: "dessert",
         label: "",
         price: "2.99",
@@ -216,7 +216,7 @@ const db = [
       {
         id: 0,
         name: "Weekend Grand Buffet",
-        image: "images/buffet.png",
+        image: "./images/buffet.png",
         label: "New",
         price: "19.99",
         featured: true,
@@ -228,7 +228,7 @@ const db = [
       {
         id: 0,
         name: "Peter Pan",
-        image: "images/alberto.png",
+        image: "./images/alberto.png",
         designation: "Chief Epicurious Officer",
         abbr: "CEO",
         featured: false,
@@ -238,7 +238,7 @@ const db = [
       {
         id: 1,
         name: "Dhanasekaran Witherspoon",
-        image: "images/alberto.png",
+        image: "./images/alberto.png",
         designation: "Chief Food Officer",
         abbr: "CFO",
         featured: false,
@@ -248,7 +248,7 @@ const db = [
       {
         id: 2,
         name: "Agumbe Tang",
-        image: "images/alberto.png",
+        image: "./images/alberto.png",
         designation: "Chief Taste Officer",
         abbr: "CTO",
         featured: false,
@@ -258,7 +258,7 @@ const db = [
       {
         id: 3,
         name: "Alberto Somayya",
-        image: "images/alberto.png",
+        image: "./images/alberto.png",
         designation: "Executive Chef",
         abbr: "EC",
         featured: true,
